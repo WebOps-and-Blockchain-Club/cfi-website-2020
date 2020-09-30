@@ -1,0 +1,46 @@
+p {
+  position: relative;
+  font-size: x-large;
+}
+
+#mh {
+  position: relative;
+  margin-top: 100px;
+  color: black;
+  font-size: 4.5vw;
+}
+
+.color2 {
+  color: red;
+}
+
+.teams {
+  text-align: center;
+  border-top: 1.5px solid black;
+  border-bottom: 1.5px solid black;
+}
+#top {
+  border-top: 3px solid black;
+  border-bottom: 1.5px solid black;
+}
+#bottom {
+  border-top: 1.5px solid black;
+  border-bottom: 3px solid black;
+}
+.hidden {
+  display: none;
+}
+.teams:hover {
+  color: white;
+  background: url("raftar2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition-duration: 2s;
+}
+.teams:hover .hidden {
+  display: block;
+}
+#raftarp {
+  transition-delay: 2s;
+}
