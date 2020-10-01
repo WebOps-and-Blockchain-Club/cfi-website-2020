@@ -14,7 +14,7 @@ p {
   color: red;
 }
 
-.teams {
+.teamsss {
   text-align: center;
   border-top: 1.5px solid black;
   border-bottom: 1.5px solid black;
@@ -30,7 +30,7 @@ p {
 .hidden {
   display: none;
 }
-.teams:hover {
+#top:hover {
   color: white;
   background: url("raftar2.jpg");
   background-repeat: no-repeat;
@@ -38,9 +38,34 @@ p {
   background-position: center;
   transition-duration: 2s;
 }
-.teams:hover .hidden {
+#second:hover {
+  color: white;
+  background: url("anveshak.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition-duration: 2s;
+}
+#third:hover {
+  color: white;
+  background: url("abhiyaan.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition-duration: 2s;
+}
+#bottom:hover {
+  color: white;
+  background: url("avishkar.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition-duration: 2s;
+}
+.teamsss:hover .hidden {
   display: block;
 }
-#raftarp {
+#ctp {
   transition-delay: 2s;
 }
+
