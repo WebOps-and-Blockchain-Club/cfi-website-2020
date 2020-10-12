@@ -11,7 +11,11 @@ function Navbar() {
   return (
     <>
       <nav>
-        <div id="nav-icon1" onClick={handleClick} className={click ? "open" : ""}>
+        <div
+          id="nav-icon1"
+          onClick={handleClick}
+          className={click ? "open" : ""}
+        >
           <span></span>
           <span></span>
           <span></span>
@@ -39,7 +43,11 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              <Link to="/achievements" className="nav-link" onClick={closeMobileMenu}>
+              <Link
+                to="/achievements"
+                className="nav-link"
+                onClick={closeMobileMenu}
+              >
                 ACHIEVEMENTS
               </Link>
             </li>
@@ -59,8 +67,21 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              <Link to="/aboutUs" className="nav-link" onClick={closeMobileMenu}>
+              <Link
+                to="/aboutUs"
+                className="nav-link"
+                onClick={closeMobileMenu}
+              >
                 ABOUT US
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/contactUs"
+                className="nav-link"
+                onClick={closeMobileMenu}
+              >
+                CONTACT US
               </Link>
             </li>
           </ul>

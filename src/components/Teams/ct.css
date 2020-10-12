@@ -9,16 +9,31 @@ p {
   color: black;
   font-size: 4.5vw;
 }
+.teamsss {
+  text-align: center;
+  color: white;
+  width: 50%;
+  height: 50em;
+  border-top: 1.5px solid black;
+  border-bottom: 1.5px solid black;
+}
 
+/* .team-container {
+  position: fixed;
+  left: 0;
+} */
 .color2 {
   color: red;
 }
 
-.teamsss {
-  text-align: center;
-  border-top: 1.5px solid black;
-  border-bottom: 1.5px solid black;
+/* The element to apply the animation to */
+.col-md-5-font1 {
+  position: absolute;
+  right: 0;
+  top: 10%;
+  width: 50%;
 }
+
 #top {
   border-top: 3px solid black;
   border-bottom: 1.5px solid black;
@@ -68,4 +83,3 @@ p {
 #ctp {
   transition-delay: 2s;
 }
-
