@@ -12,11 +12,12 @@ function Achievements(props) {
             Our <span className="title-red">Achievements.</span>
           </h2>
           <p>
-            Over 400 sports startups from around the globe applied each year. Only a few made it.
+            Over 400 sports startups from around the globe applied each year.
+            Only a few made it.
           </p>
           <p>
-            Meet the two cohorts that received 12 weeks of training in business, leadership and
-            pitching skills in Berlin in 2017 and 2018.
+            Meet the two cohorts that received 12 weeks of training in business,
+            leadership and pitching skills in Berlin in 2017 and 2018.
           </p>
         </div>
       </div>
