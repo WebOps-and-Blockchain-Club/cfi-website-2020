@@ -7,6 +7,7 @@ import Media from "./components/Media";
 import AboutUs from "./components/AboutUs/App";
 import Teams from "./components/Teams/App";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Alumni from "./components/Alumni";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route exact path="/achievements" component={Achievement} />
         <Route exact path="/media" component={Media} />
         <Route exact path="/aboutUs" component={AboutUs} />
+        <Route exact path="/alumni" component={Alumni} />
         <Route exact path="/teams" component={Teams} />
       </Switch>
     </Router>
