@@ -5,7 +5,7 @@ export default () => {
     <div id="alumni-container">
       <div className="alumni hero-title-container">
         <h2>
-          Alumni<span className="title-red">.</span>
+          <span className="title-red">Alumni.</span>
         </h2>
         <p className="alumni-hero-description">
           CFI has been set up by the generous donation of the batch of 1981.

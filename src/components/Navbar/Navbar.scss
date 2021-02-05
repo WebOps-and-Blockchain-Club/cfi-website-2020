@@ -333,6 +333,16 @@ li {
   -moz-transition: 0.25s ease-in-out;
   -o-transition: 0.25s ease-in-out;
   transition: 0.25s ease-in-out;
+
+  &:nth-child(1) {
+    transform: translateY(20);
+    color: green;
+  }
+
+  &:nth-child(1) {
+    transform: translateY(20);
+    color: green;
+  }
 }
 
 #nav-icon1.open span:nth-child(1) {

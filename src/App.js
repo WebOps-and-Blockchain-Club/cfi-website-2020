@@ -6,6 +6,7 @@ import Media from "./components/Media";
 import ContactUs from "./components/ContactUs";
 import AboutUs from "./components/AboutUs";
 import Teams from "./components/Teams";
+import Clubs from "./components/Clubs";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Alumni from "./components/Alumni";
 
@@ -21,6 +22,7 @@ function App() {
         <Route exact path="/alumni" component={Alumni} />
         <Route exact path="/contactUs" component={ContactUs} />
         <Route exact path="/teams" component={Teams} />
+        <Route exact path="/clubs" component={Clubs} />
       </Switch>
     </Router>
   );

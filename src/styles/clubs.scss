@@ -1,0 +1,16 @@
+#clubs-container {
+  .clubs-list {
+    .club-link {
+      .title {
+        font-size: 20px;
+        font-weight: 500;
+        color: black;
+      }
+      &:hover {
+        .title {
+          color: var(--main-font-color);
+        }
+      }
+    }
+  }
+}

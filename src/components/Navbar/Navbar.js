@@ -1,15 +1,14 @@
-import React, { Component, useState } from "react";
+import React, { Fragment, useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/cfi-logo-black.png";
-import "./Navbar.css";
-
-function Navbar() {
+import "./Navbar.scss";
+export default () => {
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
   return (
-    <>
+    <Fragment>
       <nav>
         <div
           id="nav-icon1"
@@ -38,7 +37,7 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              <Link to="/" className="nav-link" onClick={closeMobileMenu}>
+              <Link to="/clubs" className="nav-link" onClick={closeMobileMenu}>
                 CLUBS
               </Link>
             </li>
@@ -87,8 +86,6 @@ function Navbar() {
           </ul>
         </div>
       </nav>
-    </>
+    </Fragment>
   );
-}
-
-export default Navbar;
+};
