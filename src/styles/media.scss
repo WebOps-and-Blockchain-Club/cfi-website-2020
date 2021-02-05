@@ -155,17 +155,27 @@
     letter-spacing: 0.25em;
   }
   .press-release {
+    background-color: #eeedef;
     min-height: 100vh;
+    padding: 5%;
+    padding-top: 0px;
   }
 
   .press-release-container {
-    padding: 4em;
+    padding: 2% 5%;
     display: flex;
-    box-shadow: 10px 10px 10px #2a2a2a18;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 30px 60px;
+    margin-bottom: 5%;
+    border-radius: 20px;
+    font-size: 16px;
+    .title {
+      font-size: 30px;
+      margin-bottom: 2%;
+    }
   }
 
   .press-release-left {
-    width: 50%;
     padding: 8em 8em 8em 0;
   }
   .press-release-left h2 {
@@ -175,13 +185,12 @@
     font-weight: 500;
   }
   .press-release-right {
-    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
   }
   .press-release-right-items {
-    margin-bottom: 16px;
+    margin: 16px 0px;
   }
   .press-release-headline {
     display: inline-block;
