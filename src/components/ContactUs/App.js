@@ -10,19 +10,6 @@ export default () => {
           <span className="title-red">Contact Us.</span>
         </h2>
       </div>
-      <div classname="column">
-        <div>
-          {contacts.map((contact) => {
-            return (
-              <CreateCard
-                key={contact.title}
-                title={contact.title}
-                people={contact.people}
-              />
-            );
-          })}
-        </div>
-      </div>
     </div>
   );
 };

@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
 import Achievement from "./components/Achievements";
 import Media from "./components/Media";
-import ContactUs from "./components/ContactUs/App";
+import ContactUs from "./components/ContactUs";
 import AboutUs from "./components/AboutUs";
 import Teams from "./components/Teams";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
