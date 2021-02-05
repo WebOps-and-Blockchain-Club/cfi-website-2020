@@ -35,7 +35,7 @@ export default () => {
         <Row>
           {data.map(({ title }) => (
             <Col span={8} align="center">
-              <Link className="club-link" to={`/clubs/${title}`}>
+              <Link className="club-link" to={`/club/${title}`}>
                 <Card.Grid style={gridStyle}>
                   <p className="title">{title}</p>
                 </Card.Grid>
