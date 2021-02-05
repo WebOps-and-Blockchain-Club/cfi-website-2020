@@ -3,14 +3,19 @@
   --secondary-font-color: #2a2a2a;
 }
 
+@import "./temp.scss";
 @import "~antd/dist/antd.css";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;800&display=swap");
-
+@import url("https://fonts.googleapis.com/css?family=Sora");
+@import url("https://fonts.googleapis.com/css?family=Anton");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
 @import "./achievements.scss";
 @import "./contacts.scss";
 @import "./media.scss";
 @import "./competetion-teams.scss";
+@import "./about-us.scss";
 
 body {
   margin: 0;
