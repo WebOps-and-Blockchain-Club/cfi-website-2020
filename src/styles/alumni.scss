@@ -1,0 +1,50 @@
+#alumni-container {
+  background-color: #eeedef;
+  padding-bottom: 5%;
+  .alumni.hero-title-container {
+    padding-left: 2em;
+  }
+  .alumni-hero-description {
+    line-height: 1.5;
+  }
+  .alumni-card {
+    background-color: white;
+    padding: 3%;
+    width: 95%;
+    margin: 0 auto 24px auto;
+    border-radius: 30px;
+  }
+  .alumni-card h4 {
+    font-size: 30px;
+  }
+  .alumni-card p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .alumni-card p a {
+    color: var(--main-font-color);
+    text-decoration: underline;
+  }
+  .alumni-card ol li {
+    font-size: 16px;
+  }
+  @media only screen and (max-device-width: 690px) {
+    .alumni-card {
+      padding: 4em 4em;
+    }
+    .alumni-card p {
+      font-size: 14px;
+    }
+  }
+  @media only screen and (max-device-width: 468px) {
+    .alumni-card-container {
+      padding: 0;
+    }
+    .alumni-card {
+      width: 100%;
+    }
+    .alumni-card p {
+      font-size: 14px;
+    }
+  }
+}

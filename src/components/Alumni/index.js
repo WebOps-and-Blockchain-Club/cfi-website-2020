@@ -1,8 +1,8 @@
 import React from "react";
-import "./Alumni.css";
-export default function Alumni() {
+
+export default () => {
   return (
-    <div>
+    <div id="alumni-container">
       <div className="alumni hero-title-container">
         <h2>
           Alumni<span className="title-red">.</span>
@@ -19,7 +19,8 @@ export default function Alumni() {
       </div>
       <div className="alumni-card-container">
         <div className="alumni-card">
-          <h4>Connect to CFI</h4>
+          <h4 className="title-red">Connect to CFI</h4>
+          <br />
           <p>
             Alumni can connect to CFI through the highlighting events it
             conducts in an academic year.
@@ -44,7 +45,8 @@ export default function Alumni() {
           </ol>
         </div>
         <div className="alumni-card">
-          <h4>CONTRIBUTE TO CFI</h4>
+          <h4 className="title-red">CONTRIBUTE TO CFI</h4>
+          <br />
           <p>Alumni can contribute to CFI through the following ways:</p>
           <ol>
             <li>
@@ -80,4 +82,4 @@ export default function Alumni() {
       </div>
     </div>
   );
-}
+};
