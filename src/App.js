@@ -5,7 +5,7 @@ import Achievement from "./components/Achievements";
 import Media from "./components/Media";
 import ContactUs from "./components/ContactUs/App";
 import AboutUs from "./components/AboutUs/App";
-import Teams from "./components/Teams/App";
+import Teams from "./components/Teams";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Alumni from "./components/Alumni";
 
