@@ -1,11 +1,10 @@
 import React from "react";
 import Heading from "./Heading";
 import List from "./List";
-import "./achievements.css";
 
-function Achievements(props) {
+export default () => {
   return (
-    <div>
+    <div id="achievements">
       <div className="hero">
         <div className="hero-title-container">
           <h2 id="title">
@@ -27,6 +26,4 @@ function Achievements(props) {
       </div>
     </div>
   );
-}
-
-export default Achievements;
+};

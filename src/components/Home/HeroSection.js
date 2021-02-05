@@ -1,5 +1,4 @@
 import React, { Component, useState } from "react";
-import "../../App.css";
 import Carousel from "react-bootstrap/Carousel";
 import "./HeroSection.css";
 

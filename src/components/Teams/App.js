@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./ct.css";
-import "./achievements.css";
 
 class App extends Component {
   state = {

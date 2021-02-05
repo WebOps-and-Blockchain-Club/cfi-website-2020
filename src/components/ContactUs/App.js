@@ -2,9 +2,9 @@ import React from "react";
 import contacts from "./contacts";
 import CreateCard from "./card";
 
-function ContactUs() {
+export default () => {
   return (
-    <div className="hero">
+    <div id="contacts" className="hero">
       <div className="hero-title-container">
         <h2 id="title">
           <span className="title-red">Contact Us.</span>
@@ -25,6 +25,4 @@ function ContactUs() {
       </div>
     </div>
   );
-}
-
-export default ContactUs;
+};
