@@ -1,8 +1,9 @@
-import React, { Component, useState } from "react";
+import React, { Component, useState, Fragment } from "react";
+import { Link } from "react-router-dom";
 import Carousel from "react-bootstrap/Carousel";
 import "./HeroSection.css";
 
-function HeroSection() {
+export default () => {
   const [index, setIndex] = useState(0);
 
   const handleSelect = (selectedIndex, e) => {
@@ -10,7 +11,7 @@ function HeroSection() {
   };
 
   return (
-    <>
+    <Fragment>
       <Carousel
         activeIndex={index}
         onSelect={handleSelect}
@@ -42,12 +43,23 @@ function HeroSection() {
           {" "}
           India 's largest <br />
           student run <br />
-          technical lab{" "}
+          innovation lab{" "}
         </h2>{" "}
-        {/* <p>The Centre for Innovation (CFI) was setup in 2008 through a donation by the batch of 1981 as the first-of-its kind, 24x7 student laboratory in India. CFI is where ideas are generated, prototypes are built and products are developed. Ten years since its inception, CFI has given rise to hundreds of projects and more than a dozen patents and start-ups, in addition to both national and international accolades.</p> */}
+        <Link
+          to="/open-house"
+          className="nav-link"
+          style={{
+            color: "white",
+            fontSize: "20px",
+            fontWeight: 500,
+            cursor: "pointer",
+            backgroundColor: "#fe3b3b",
+            padding: "10px 20px",
+          }}
+        >
+          Learn more about our open house.
+        </Link>
       </div>{" "}
-    </>
+    </Fragment>
   );
-}
-
-export default HeroSection;
+};

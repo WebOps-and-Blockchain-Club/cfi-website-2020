@@ -37,10 +37,20 @@ export default () => {
               </Link>
             </li>
             <li>
+              <Link
+                to="/open-house"
+                className="nav-link"
+                onClick={closeMobileMenu}
+              >
+                OPEN HOUSE
+              </Link>
+            </li>
+            <li>
               <Link to="/clubs" className="nav-link" onClick={closeMobileMenu}>
                 CLUBS
               </Link>
             </li>
+
             <li>
               <Link
                 to="/achievements"
