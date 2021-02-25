@@ -8,7 +8,7 @@ export default () => {
           <h2 id="title">
             Open <span className="title-red">House.</span>
           </h2>
-          <p>
+          <p style={{ width: "200%", fontSize: "18px" }}>
             The CFI Open House is CFI's flagship event conducted to showcase the
             recent work and achievements of our student innovators, as well as
             providing an opportunity for their projects to be displayed on a
@@ -49,12 +49,21 @@ export default () => {
             with an idea and walk out with an end product
           </p>
           <br />
+          <strong>
+            <p style={{ fontSize: "20px" }}>
+              <strong>Location:</strong>&nbsp;&nbsp; Watsa Stadium <br />
+              <strong>Live session:</strong>&nbsp;&nbsp; 27th Feb 2021 3 PM to 7
+              PM
+              <br />
+              <strong>Offline session:</strong>&nbsp;&nbsp; 28th Feb 9 AM to 5
+              PM
+            </p>
+          </strong>
           <p style={{ fontSize: "20px", fontWeight: 500 }}>
-            The link for open house will be updated soon.
+            The link for open house live session will be updated soon.
           </p>
         </div>
       </div>
-      <div className="achievements"></div>
     </div>
   );
 };
