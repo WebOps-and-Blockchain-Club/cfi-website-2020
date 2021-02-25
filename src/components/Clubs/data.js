@@ -94,14 +94,59 @@ export default [
     content: (
       <Fragment>
         <p className="description">
-          Global business is data-driven. Effective data collection, compliant
-          data management, and ethical data usage is a hot topic across sectors.
-          It’s no wonder that the ability to turn big data into actionable
-          insights has become a highly sought-after skill. In response to the
-          ever-increasing importance of data analysis, a group of
-          forward-thinking students in IIT Madras founded the Analytics Club at
-          CFI. The club holds informative sessions to enhance hands on training
-          in analytics skills.
+          Analytics Club is the community of like-minded people who work in the
+          field of Data Science and Deep Learning. The club’s mission is to
+          expose students to the field of AI, solve challenging problems in the
+          form of projects and collaborations with various industries. Our
+          projects are diverse and involve various concepts in Data Science,
+          Computer Vision, Natural Language Processing, Reinforcement Learning,
+          etc.
+          <br />
+          <br />
+          Club members have worked in the industry as ML consultants,
+          freelancers, and interns. Various teams from the club have also
+          succeeded in national-level data science competitions like Gartner
+          HackElite, GS Quantify, Microsoft CodeFundo, Flipkart Grid, Amex
+          Ignite Program, and many more. Every year, selected teams from our
+          club participate in the Inter IIT Tech Meet and have won Gold, and
+          Silver medals for their excellent performance.
+          <br />
+          <br />
+          <strong>Current Projects:</strong>
+          <br />
+          <br />
+          <strong>Stock Prediction using Deep Neural Networks</strong>
+          <br />
+          Explore the possibility of using Generative models, Reinforcement
+          Learning and Graph Neural Networks for stock prediction. Stock trading
+          agent which can buy/sell/hold stock to manage your portfolio.
+          <br />
+          <br />
+          <strong>Document Restoration using NLP</strong>
+          <br />
+          Utilise Natural Language Processing and Computer Vision Techniques to
+          digitise and restore old documents. Focus on word completion and other
+          artifacts caused due to the age of the document.
+          <br />
+          <br />
+          <strong>Farmer’s AI friend - an agricultural dashboard</strong>
+          <br />
+          Create an AI dashboard targeted to help farmers for their agricultural
+          needs. Build a disease detection, harvest, market prediction pipeline,
+          multi-lingual chatbots, text to speech agents and many more
+          <br />
+          <br />
+          <strong>Music Generation</strong>
+          Working on Music Generation, source separation, video syncing, genre
+          classification, audio denoising, etc. Experimental project aimed to
+          improve current SOTA for various tasks.
+          <br />
+          <br />
+          <strong>Driving Monitoring and Analysis</strong>
+          Real-time monitoring of driver performance and analyzing driving
+          patterns and behaviour to provide useful information to insurance
+          companies. Helps monitor traffic and estimate best alternate routes to
+          avoid minimal roadblocks and fastest routes to a given destination.
         </p>
       </Fragment>
     ),
