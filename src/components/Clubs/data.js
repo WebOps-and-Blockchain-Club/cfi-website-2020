@@ -19,6 +19,9 @@ import Envisage1 from "../../assets/clubs/envisage/1.jpg";
 import Envisage2 from "../../assets/clubs/envisage/2.jpg";
 import Envisage3 from "../../assets/clubs/envisage/3.jpg";
 import Envisage4 from "../../assets/clubs/envisage/4.jpg";
+import IGem1 from "../../assets/clubs/igem/1.jpeg";
+import IGem2 from "../../assets/clubs/igem/2.jpeg";
+import IGem3 from "../../assets/clubs/igem/3.jpeg";
 
 export default [
   {
@@ -868,5 +871,62 @@ export default [
       </Fragment>
     ),
     images: [Envisage1, Envisage2, Envisage3, Envisage4],
+  },
+  {
+    title: "IGem",
+    content: (
+      <Fragment>
+        <p className="description">
+          We are a group of individuals passionate about the fascinating field
+          of synthetic biology. We participate in the iGEM competition every
+          year. For a competition so entirely steeped in innovation,
+          collaboration and education, the words ‘International Genetically
+          Engineered Machine’ doesn’t quite portray the reality of things – the
+          only machines at work here are the small, yet incredibly complex
+          bundles of life growing on a Petri plate (and very occasionally, our
+          brains)!
+          <br />
+          <br />
+          The iGEM competition began in 2003 as a month-long course at the
+          Massachusetts Institute of Technology. It eventually expanded over the
+          years, with around 450 teams taking part in the 2019 edition.
+          IIT-Madras has a long history with iGEM as well, having taken part in
+          more than 10 editions since 2008, and has received many accolades at
+          the international stage including, four gold medals, five silver
+          medals, the Best Foundational Advance project and Best New BioBrick
+          Part or Device, Engineered in 2008, A Safety Commendation, Asia in
+          2011, Best New BioBrick Part, Natural, Asia in 2011, Best Human
+          Practices Advance, Asia in 2013 and a nomination for Best Education
+          and Public Engagement in 2019.
+          <br />
+          <br />
+          The potential of synthetic biology is limitless and this is reflected
+          in the projects the teams come up with including color-changing
+          chewing gums that detect hormone levels, a live minesweeper game,
+          co-cultures to produce flavoured food supplements in space and many
+          such experiments.
+          <br />
+          <br />
+          In 2019, we attempted to engineer a fungus, Fusarium solani, to
+          produce an anti-cancer drug precursor Camptothecin, in order to reduce
+          the exploitation pressure on Nothapodytes nimmoniana, a plant endemic
+          to the Western Ghats.
+          <br />
+          <br />
+          We also strived to break language barriers and make synthetic biology
+          accessible through our language project and accessibility initiatives.
+          We have several videos in multiple Indian and foreign languages on our
+          Youtube channel (https://www.youtube.com/c/iGEMIITMadras/featured)
+          that explain the basics of molecular biology.
+          <br />
+          <br />
+          Check out our 2019 project at https://2019.igem.org/Team:IIT-Madras
+          <br />
+          <br />
+          You can reach out to us at igem@smail.iitm.ac.in!
+        </p>
+      </Fragment>
+    ),
+    images: [IGem2, IGem3],
   },
 ];
