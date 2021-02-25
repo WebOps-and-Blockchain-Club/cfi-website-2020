@@ -51,11 +51,27 @@ export default () => {
           <br />
           <strong>
             <p style={{ fontSize: "18px" }}>
-              <strong>Location:</strong>&nbsp;&nbsp; CFI Zone, Watsa Stadium{" "}
+              <strong>Location:</strong>
               <br />
-              <strong>Offline session:</strong>&nbsp;&nbsp; 28th Feb 9 AM to 5
-              PM
+              CFI Zone, Watsa Stadium, Virtual Shaastra Platform-Atthah
               <br />
+              <br />
+              <strong>Date:</strong>
+              <br />
+              Saturday, 27th February, 3 PM to 7 PM
+              <br />
+              <br />
+              <strong>Note:</strong>
+              <br />
+              The pre-recorded version of Open House can also be accessed
+              through the virtual platform from 9 AM to 5 PM on Sunday, 28th
+              February
+              <br />
+              <br />
+              <strong>Link for the Virtual Shaastra Platform:</strong>
+              <br />
+              <a href="https://realm.shaastra.org">realm.shaastra.org</a>(Guest
+              login mode can be used to visit CFI Open House)
             </p>
           </strong>
           <p style={{ fontSize: "18px" }}>
