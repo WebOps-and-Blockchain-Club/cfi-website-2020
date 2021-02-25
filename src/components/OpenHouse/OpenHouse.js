@@ -8,7 +8,7 @@ export default () => {
           <h2 id="title">
             Open <span className="title-red">House.</span>
           </h2>
-          <p style={{ width: "200%", fontSize: "18px" }}>
+          <p style={{ width: "180%", fontSize: "18px" }}>
             The CFI Open House is CFI's flagship event conducted to showcase the
             recent work and achievements of our student innovators, as well as
             providing an opportunity for their projects to be displayed on a
@@ -50,17 +50,18 @@ export default () => {
           </p>
           <br />
           <strong>
-            <p style={{ fontSize: "20px" }}>
-              <strong>Location:</strong>&nbsp;&nbsp; Watsa Stadium <br />
-              <strong>Live session:</strong>&nbsp;&nbsp; 27th Feb 2021 3 PM to 7
-              PM
+            <p style={{ fontSize: "18px" }}>
+              <strong>Location:</strong>&nbsp;&nbsp; CFI Zone, Watsa Stadium{" "}
               <br />
               <strong>Offline session:</strong>&nbsp;&nbsp; 28th Feb 9 AM to 5
               PM
+              <br />
             </p>
           </strong>
-          <p style={{ fontSize: "20px", fontWeight: 500 }}>
-            The link for open house live session will be updated soon.
+          <p style={{ fontSize: "18px" }}>
+            The pre-recorded videos of club projects can be accessed from 9AM to
+            5PM on 28th Feb from&nbsp;
+            <a href="https://realm.shaastra.org/">realm.shaastra.org</a>
           </p>
         </div>
       </div>
