@@ -74,11 +74,6 @@ export default () => {
               login mode can be used to visit CFI Open House)
             </p>
           </strong>
-          <p style={{ fontSize: "18px" }}>
-            The pre-recorded videos of club projects can be accessed from 9AM to
-            5PM on 28th Feb from&nbsp;
-            <a href="https://realm.shaastra.org/">realm.shaastra.org</a>
-          </p>
         </div>
       </div>
     </div>
