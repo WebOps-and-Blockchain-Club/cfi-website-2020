@@ -57,7 +57,7 @@ export default () => {
             padding: "10px 20px",
           }}
         >
-          Learn more about our open house.
+          Learn more about CFI Open House.
         </Link>
       </div>{" "}
     </Fragment>
