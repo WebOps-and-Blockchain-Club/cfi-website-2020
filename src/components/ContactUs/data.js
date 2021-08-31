@@ -3,14 +3,9 @@ const main = [
     title: "Advisor",
     people: [
       {
-        name: "Prof Satyanarayanan S",
-        dept: "Dept. Of Applied Mechanics",
-        email: "satya@iitm.ac.in",
-      },
-      {
-        name: "Prof. Boby George",
-        dept: "Dept of Electrical Engineering",
-        email: "boby@iitm.ac.in",
+        name: "Prof Prabhu Rajagopal",
+        dept: "Department of Mechanical Engineering",
+        email: "prajagopal@iitm.ac.in",
       },
     ],
   },
@@ -18,9 +13,8 @@ const main = [
     title: "Student Executive Head",
     people: [
       {
-        name: "Tejas Deolasee",
-        dept: "Chemical Engineering Undergraduate",
-        number: 9405895076,
+        name: "Dhanveerraj J M",
+        number: 9488553190,
         email: "cfi@smail.iitm.ac.in",
       },
     ],
@@ -29,8 +23,8 @@ const main = [
     title: "Co-Curricular Affairs Secretary",
     people: [
       {
-        name: "Mukund Khandelwal",
-        number: 7000338552,
+        name: "Nitish Gupta",
+        number: 9840903852,
         email: "sec_cocur@smail.iitm.ac.in",
       },
     ],
@@ -42,14 +36,14 @@ const clubHeads = [
     title: "3D Printing Club",
     people: [
       {
-        name: "Shreyash Patidar",
-        number: 6265592388,
-        email: "shreyash16patidar@gmail.com",
+        name: "Ishan Chokshi",
+        number: 9870708766,
+        email: "ishan.c1671@gmail.com ",
       },
       {
-        name: "Sashank",
-        number: 9381131601,
-        email: "sashank.n.1711@gmail.com",
+        name: "V.Bharathi",
+        number: 9445649992,
+        email: "bharathiveerasankar@gmail.com",
       },
     ],
   },
@@ -57,14 +51,14 @@ const clubHeads = [
     title: "Aero Club",
     people: [
       {
-        name: "Ahal Martin V",
-        number: 91885806739,
-        email: "ahalmartinv@gmail.com",
+        name: "Sai Kiran",
+        number: 8897200279,
+        email: "saikiranm3636@gmail.com",
       },
       {
-        name: "Jagdish Bagre",
-        number: 8225045711,
-        email: "jaybagre02@gmail.com",
+        name: "Vedant",
+        number: 9119498097,
+        email: "me19b185@smail.iitm.ac.in",
       },
     ],
   },
@@ -72,14 +66,14 @@ const clubHeads = [
     title: "Analytics Club",
     people: [
       {
-        name: "Mukund Varma T",
-        number: 9952951152,
-        email: "mukundvarmat@gmail.com",
+        name: "Tanay Dixit",
+        number: 7720019240,
+        email: "dixittanay@gmail.com",
       },
       {
-        name: "Yadukrishnan R Menon",
-        number: 8137089610,
-        email: "yadhumenon2001@gmail.com",
+        name: "Aryan Pandey",
+        number: 8105632052,
+        email: "na19b030@smail.iitm.ac.in",
       },
     ],
   },
@@ -87,14 +81,14 @@ const clubHeads = [
     title: "Astronomy and Physics Club",
     people: [
       {
-        name: "Vaibhavi Gawas",
-        number: 8668255157,
-        email: "vg8128@gmail.com",
+        name: "K Rajeshkumar",
+        number: 8838385380,
+        email: "ph19b003@smail.iitm.ac.in",
       },
       {
-        name: "Rahul Priyadarshan R",
-        number: 9884353726,
-        email: "rahulpriyadarshan19@gmail.com",
+        name: "Hrishabh Srivastava",
+        number: 8104891380,
+        email: "mm19b033@smail.iitm.ac.in",
       },
     ],
   },
@@ -102,14 +96,14 @@ const clubHeads = [
     title: "Computer Vision Group",
     people: [
       {
-        name: "Mukhesh Pugalendhi Sudha",
-        number: 9087951597,
-        email: "mukheshpugalendhi@gmail.com",
+        name: "Aditya Mohan",
+        number: 9500022420,
+        email: "h.adityamohan@gmail.com",
       },
       {
-        name: "Irfaan Arif",
-        number: 9995093880,
-        email: "irfaan365@gmail.com",
+        name: "Shreyas singh",
+        number: 8318387585,
+        email: "ed19b030@smail.iitm.ac.in",
       },
     ],
   },
@@ -117,14 +111,14 @@ const clubHeads = [
     title: "Electronics Club",
     people: [
       {
-        name: "Aswinkumar",
-        number: 7708264928,
-        email: "aswinkumar1999@gmail.com",
+        name: "Swathi G",
+        number: 8431838091,
+        email: "ch19b094@smail.iitm.ac.in",
       },
       {
-        name: "Praveen Kumar M",
-        number: 7871241455,
-        email: "praveenkumar2k1@gmail.com",
+        name: "Sharanesh R",
+        number: 8973359547,
+        email: "ee19b116@smail.iitm.ac.in",
       },
     ],
   },
@@ -132,14 +126,14 @@ const clubHeads = [
     title: "iBot Club",
     people: [
       {
-        name: "Raghu Dinesh",
-        number: 6379998697,
-        email: "raghudinesh98@gmail.com",
+        name: "D Leela Manideep",
+        number: 8639045607,
+        email: "ed19b009@smail.iitm.ac.in",
       },
       {
-        name: "Tanzir Silar",
-        number: 9100148393,
-        email: "007silartanzir@gmail.com",
+        name: "Rinkle Sebastian",
+        number: 8281704611,
+        email: "na19b056@smail.iitm.ac.in",
       },
     ],
   },
@@ -147,29 +141,29 @@ const clubHeads = [
     title: "iGem Club",
     people: [
       {
-        name: "Neha Swaminathan",
-        number: 6379698944,
-        email: "neha.swamina@gmail.com",
+        name: "Gayathri Prakash",
+        number: 9384872441,
+        email: "bs18b004@smail.iitm.ac.in",
       },
       {
-        name: "Shashank HS",
-        number: 7899006310,
-        email: "shashankhiremath73@gmail.com",
+        name: "Neha Swaminathan",
+        number: 6379698944,
+        email: "be18b008@smail.iitm.ac.in",
       },
     ],
   },
   {
-    title: "Techno Entertainment Club",
+    title: "Envisage",
     people: [
       {
-        name: "Ashutosh Patil",
-        number: 7981587869,
-        email: "ashutoshpatil99@gmail.com",
+        name: "K L Sowmya",
+        number: 9176415740,
+        email: "soumyakollipara@gmail.com",
       },
       {
-        name: "Jeeva S U",
-        number: 8903002504,
-        email: "sujeeva1999@gmail.com",
+        name: "Battu Lochana Janaki",
+        number: 7032377877,
+        email: "ce18b003@smail.iitm.ac.in",
       },
     ],
   },
@@ -177,14 +171,14 @@ const clubHeads = [
     title: "Product Design Club",
     people: [
       {
-        name: "Akash Anand",
-        number: 9731692444,
-        email: "akashanandnj09@gmail.com",
+        name: "Abhigyan Chattopadhyay",
+        number: 9663561420,
+        email: "ee19b146@smail.iitm.ac.in",
       },
       {
-        name: "Gaurav Vaidya",
-        number: 9513331386,
-        email: "gvaidya.m@gmail.com",
+        name: "Sidharth Tadeparti",
+        number: 9840045761,
+        email: "me19b052@smail.iitm.ac.in",
       },
     ],
   },
@@ -192,14 +186,14 @@ const clubHeads = [
     title: "Programming Club",
     people: [
       {
-        name: "Arnhav Datar",
-        number: 9665561490,
-        email: "arnhav.datar@gmail.com",
+        name: "V Shree Vishnu",
+        number: 7871512282,
+        email: "cs19b045@smail.iitm.ac.in",
       },
       {
-        name: "R Raghu Raman",
-        number: 8903973960,
-        email: "raghu.ravi.raman@gmail.com",
+        name: "Vinit Dhandaria",
+        number: 9428040833,
+        email: "cs19b047@smail.iitm.ac.in",
       },
     ],
   },
@@ -207,24 +201,34 @@ const clubHeads = [
     title: "Sahaay",
     people: [
       {
-        name: "Dhanveerraj J M",
-        number: 9488553190,
-        email: "dhanveerraj1512@gmail.com",
+        name: "Vennapareddy Abhigna",
+        number: 8106734686,
+        email: "abhignavennapareddy@gmail.com",
       },
       {
-        name: "Yogitha B M",
-        number: 6385113776,
-        email: "yogithameghaj2018@gmail.com",
+        name: "Harshit Raj",
+        number: 9610275692,
+        email: "harshitraj.33@gmail.com",
       },
     ],
   },
   {
-    title: "WebOps Club",
+    title: "WebOps & Blockchain Club",
     people: [
       {
-        name: "Devakrishna",
-        number: 9840913525,
-        email: "devakrishna33@gmail.com",
+        name: "Rutuj Dodal",
+        number: 9028549540,
+        email: "ce17b114@smail.iitm.ac.in",
+      },
+      {
+        name: "Utkarsh",
+        number: 8003994946,
+        email: "me17b123@smail.iitm.ac.in",
+      },
+      {
+        name: "Janith M S",
+        number: 9944010785,
+        email: "janithms9920@gmail.com",
       },
     ],
   },
@@ -235,14 +239,14 @@ const competitionTeams = [
     title: "Raftar Formula Racing",
     people: [
       {
-        name: "Navneeth Srinivasan",
-        number: 7022569345,
-        email: "navneethsrinivasan11@gmail.com",
+        name: "Karthik S",
+        number: 6379796668,
+        email: "kodikarthik21@gmail.com",
       },
       {
-        name: "G Reyshwanth",
-        number: 9444990604,
-        email: "greyshwanth@gmail.com",
+        name: "Bharath Chandar N",
+        number: 9629878333,
+        email: "bharathcn2k@gmail.com",
       },
     ],
   },
@@ -250,12 +254,14 @@ const competitionTeams = [
     title: "Team Abhiyaan",
     people: [
       {
-        name: "Karthik Bonda",
+        name: "Shashank M Patil",
+        number: 6362748509,
+        email: "shashankpatil0705@gmail.com",
       },
       {
-        name: "Mahesh balasubramani",
-        number: 8072170221,
-        email: "maheshbalas89@gmail.com",
+        name: "Amit Dodmani",
+        number: 8147327330,
+        email: "amitdodmani4@gmail.com ",
       },
     ],
   },
@@ -263,19 +269,19 @@ const competitionTeams = [
     title: "Team Anveshak",
     people: [
       {
-        name: "Swathi V",
-        number: 9742287975,
-        email: "swathiv1309@gmail.com",
+        name: "Arun D A",
+        number: 7598194627,
+        email: "ee19b071@smail.iitm.ac.in",
       },
       {
-        name: "Arvind Ragghav V",
-        number: 9566039939,
-        email: "arvind00ragg@gmail.com",
+        name: "Sai Karthik Brahma",
+        number: 8985149248,
+        email: "me19b044@smail.iitm.ac.in",
       },
     ],
   },
   {
-    title: "Avishkar Hyperloop",
+    title: "Team Avishkar Hyperloop",
     people: [
       {
         name: "Neel Balar",
@@ -296,29 +302,34 @@ const managerialTeams = [
     title: "Project Management",
     people: [
       {
-        name: "Y Geetha Prasuna",
-        number: 7680988444,
-        email: "geethaprasuna29@gmail.com",
+        name: "N.V.S.N.Tarun",
+        number: 9390170789,
+        email: "ee19b101@smail.itm.ac.in",
       },
       {
-        name: "K J R K Vara Prasad",
-        number: 9381229633,
-        email: "varaprasadkotipalli1026@gmail.com",
+        name: "Harshitha Nugala",
+        number: 8897576144,
+        email: "harshithanugala28@gmail.com",
       },
+      {
+        name: "Bandi Sohana Preeth",
+        number: "9573056849",
+        email: "sohanabandi@gmail.com"
+      }
     ],
   },
   {
     title: "Branding & Engagement",
     people: [
       {
-        name: "Navaneeth M S",
-        number: 6282616914,
-        email: "msnavu@gmail.com",
+        name: "Navaneeth CV",
+        number: 9400434929,
+        email: "navaneethcv3@gmail.com",
       },
       {
-        name: "Anand Krishna G Unni",
-        number: 6282479729,
-        email: "anandkrishnag127@gmail.com",
+        name: "Vaidehi Garodia",
+        number: 8529782258,
+        email: "vaidehigarodia@gmail.com",
       },
     ],
   },
@@ -326,14 +337,14 @@ const managerialTeams = [
     title: "Finance Team",
     people: [
       {
-        name: "Aishwarya Ray",
-        number: 6380631967,
-        email: "aishwaryaray2014@gmail.com",
+        name: "Atharva Bhalerao",
+        number: 7722003546,
+        email: "atharvabhalerao10@gmail.com",
       },
       {
-        name: "Sathvik Gurugubelli",
-        number: 8978794538,
-        email: "sathvikgurugubelli7@gmail.com",
+        name: "Ankur Gupta",
+        number: 8708277966,
+        email: "ankur17g@gmail.com",
       },
     ],
   },
