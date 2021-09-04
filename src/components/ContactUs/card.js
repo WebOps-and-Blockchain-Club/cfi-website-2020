@@ -31,7 +31,7 @@ export default ({ people, title }) => {
           <h3>{title}</h3>
         </div>
         <div className="row">
-          <div className="card col-4">
+          <div className="card col-sm-4">
             <div className="card-body">
               <p className="card-title">{people[0].name}</p>
               <h5 className="card-text">{people[0].dept}</h5>
@@ -41,7 +41,7 @@ export default ({ people, title }) => {
               </h5>
             </div>
           </div>
-          <div className="card col-4">
+          <div className="card col-sm-4">
             <div className="card-body">
               <p className="card-title">{people[1].name}</p>
               <h5 className="card-text">{people[1].dept}</h5>
@@ -51,7 +51,7 @@ export default ({ people, title }) => {
               </h5>
             </div>
           </div>
-          <div className="card col-4">
+          <div className="card col-sm-4">
             <div className="card-body">
               <p className="card-title">{people[2].name}</p>
               <h5 className="card-text">{people[2].dept}</h5>

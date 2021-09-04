@@ -7,6 +7,11 @@ const main = [
         dept: "Department of Mechanical Engineering",
         email: "prajagopal@iitm.ac.in",
       },
+      {
+        name: "Prof Satyanarayanan S",
+        dept: "Department of Applied Mechanics",
+        email: "satya@iitm.ac.in",
+      },
     ],
   },
   {
@@ -284,14 +289,9 @@ const competitionTeams = [
     title: "Team Avishkar Hyperloop",
     people: [
       {
-        name: "Neel Balar",
-        number: 9663329307,
-        email: "neelbalar7@gmail.com",
-      },
-      {
-        name: "Kishan Thakkar",
-        number: 7567129965,
-        email: "kishan1951999@gmail.com",
+        name: "Bharat Bhavsar",
+        number: 9979090823,
+        email: "bharatbhavsar2308@gmail.com",
       },
     ],
   },
