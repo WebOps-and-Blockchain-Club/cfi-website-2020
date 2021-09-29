@@ -11,8 +11,16 @@ import OpenHouse from "./components/OpenHouse";
 import Club from "./components/Club";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Alumni from "./components/Alumni";
+import ReactGA from 'react-ga';
 
 function App() {
+
+  React.useEffect(() => {
+    ReactGA.initialize("UA-208849633-1");
+
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, [])
+
   return (
     <Router>
       <Navbar />
